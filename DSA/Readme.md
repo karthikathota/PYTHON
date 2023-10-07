@@ -22,3 +22,43 @@ def popitem():
         print(popped)
 
 ```
+
+#QUEUE
+
+```PYTHON
+
+max_size=5
+front = -1
+rear = -1
+queue=[None]*max_size
+
+def insertitem(x):
+    global front
+    global rear
+    global queue
+    if (rear == max_size-1):
+        print("Queue is full")
+    elif( (rear == -1) and (front == -1)):
+        front = 0
+        rear = 0
+        queue[rear] = x
+    else:
+        rear = rear + 1
+        queue[rear] = x
+
+def deleteitem():
+    global front
+    global rear
+    global queue
+    if((rear == -1) and (front == -1)):
+        print("Queue is empty no item to be deleted")
+    elif( front == rear ):
+        deleted = queue[front]
+        front = -1
+        rear = -1
+        print("Last item deleted: ",popped)
+    else:
+        deleted = queue[front]
+        front = front + 1
+        print(deleted)
+```
