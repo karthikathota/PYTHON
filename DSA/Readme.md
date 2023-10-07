@@ -36,7 +36,7 @@ def popitem():
 
 ```
 
-#QUEUE
+# QUEUE
 
 Queue is a linear Abstact Datatype(ADT).  
 It follows First In First Out(FIFO) rule.  
@@ -117,10 +117,4 @@ def deleteitem():
         deleted = queue[front]
         front = (front + 1) % max_size
         print(deleted)
-
-
-
-insertitem(1)
-insertitem(2)
-deleteitem()
 ```
