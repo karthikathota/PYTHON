@@ -17,3 +17,16 @@ We can install it directly from the GitHub repository. Enter the following comma
 ```bash
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 ```
+
+#### 2. Install through HOMWBREW
+
+```bash
+brew update
+brew install pyenv
+```
+
+Using pyenv we can download multiple versions of python. To check available python verions run the command
+
+```bash
+
+```
