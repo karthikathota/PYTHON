@@ -43,7 +43,7 @@ pyenv install <version>
 pyenv versions
 ```
 
-### To set a version to global
+### To set a version to global/root directory
 
 ```
 pyenv global <version>
@@ -53,4 +53,10 @@ pyenv global <version>
 
 ```
 pyenv local <version>
+```
+
+### To uninstall a Python version
+
+```
+pyenv unistall <version>
 ```
