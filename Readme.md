@@ -27,6 +27,30 @@ brew install pyenv
 
 Using pyenv we can download multiple versions of python. To check available python verions run the command
 
-```bash
+```
+pyenv install -l
+```
 
+### To download a particular version run the command
+
+```
+pyenv install <version>
+```
+
+### To check downloaded versions
+
+```
+pyenv versions
+```
+
+### To set a version to global
+
+```
+pyenv global <version>
+```
+
+### To set a version to a local directory
+
+```
+pyenv local <version>
 ```
