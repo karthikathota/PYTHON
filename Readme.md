@@ -1,3 +1,21 @@
+# Module
+
+A module is nothing more than an object that is an instance of ModuleType.
+
+## Where does python look for imports
+
+It will look in the path like
+
+```
+sys.path
+#Output
+['/Users/karthikathota/.pyenv/versions/3.13.2/lib/python313.zip',
+ '/Users/karthikathota/.pyenv/versions/3.13.2/lib/python3.13',
+ '/Users/karthikathota/.pyenv/versions/3.13.2/lib/python3.13/lib-dynload',
+ '',
+ '/Users/karthikathota/.pyenv/versions/3.13.2/envs/udemy/lib/python3.13/site-packages']
+```
+
 # Python Virutal Environment
 
 A Python virtual environment is an isolated workspace where you can install Python packages separately from the system-wide Python installation. It helps avoid conflicts between different projects that require different package versions.
